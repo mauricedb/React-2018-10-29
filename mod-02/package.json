@@ -1,0 +1,22 @@
+{
+  "name": "mod-02",
+  "version": "1.0.0",
+  "description": "A webpack babel demo",
+  "main": "src/main.js",
+  "scripts": {
+    "webpack": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maurice",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-loader": "^8.0.4",
+    "lodash": "^4.17.11",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0"
+  }
+}
