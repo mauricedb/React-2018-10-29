@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
         "target": "es2015",
-        "sourceMap": true
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "strict": true
     },
     "files": [
         "./src/demo.ts"
