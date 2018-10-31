@@ -1,0 +1,20 @@
+{
+  "name": "mod-09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server ./src",
+    "tsc": "tsc",
+    "tsc:watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "parcel-bundler": "^1.10.3",
+    "typescript": "^3.1.4"
+  }
+}
