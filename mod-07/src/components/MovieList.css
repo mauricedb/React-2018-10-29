@@ -1,0 +1,20 @@
+.MovieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.MovieCard {
+    flex-basis: 300px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    margin: 6px 0;
+    padding: 6px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.Overview {
+    flex: 1;
+}
