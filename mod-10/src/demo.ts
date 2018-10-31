@@ -1,6 +1,6 @@
 class Calculator {
 
-    constructor(private pre: HTMLPreElement, public inp: HTMLInputElement) {
+    constructor(private pre: HTMLElement, public inp: HTMLInputElement) {
     }
 
     add(x, y) {
@@ -27,9 +27,8 @@ class Calculator {
 }
 
 
-const pre = document.getElementById('result1') as HTMLPreElement
-const inp: HTMLInputElement = document.getElementById('result2') as HTMLInputElement
-
+const pre = document.getElementById('result1')
+const inp = document.getElementById('result2') as HTMLInputElement
 
 const calc = new Calculator(pre, inp)
 console.log('1 + 2 =', calc.add(1, 2));
