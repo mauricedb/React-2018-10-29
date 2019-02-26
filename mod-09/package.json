@@ -15,6 +15,6 @@
   "dependencies": {
     "live-server": "^1.2.0",
     "parcel-bundler": "^1.10.3",
-    "typescript": "^3.1.4"
+    "typescript": "3.3.3333"
   }
 }
