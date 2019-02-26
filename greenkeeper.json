@@ -1,0 +1,21 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "mod-01/package.json",
+        "mod-02-cra/package.json",
+        "mod-02-ts/package.json",
+        "mod-02/package.json",
+        "mod-03/package.json",
+        "mod-04/package.json",
+        "mod-05/package.json",
+        "mod-06/package.json",
+        "mod-07/package.json",
+        "mod-08/package.json",
+        "mod-09/package.json",
+        "mod-10-cra-ts/package.json",
+        "mod-10/package.json"
+      ]
+    }
+  }
+}
